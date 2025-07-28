@@ -51,3 +51,31 @@ Para visualizar o projeto em sua máquina local, siga estes passos:
 **Bárbara Nunes**
 - GitHub: [@barbaranunesprogrammer](https://github.com/barbaranunesprogrammer)
 - LinkedIn: [barbaranunesprogrammer](https://www.linkedin.com/in/barbaranunesprogrammer)
+
+---
+
+## 🔄 Refatoração e Melhorias do CSS
+
+O arquivo `style.css` passou por uma refatoração com o objetivo de modernizar o código, melhorar a organização, a manutenibilidade e a consistência visual.
+
+### Principais Mudanças
+
+As alterações focaram em seguir as melhores práticas de desenvolvimento web, resultando em um código mais limpo e eficiente.
+
+#### 1. Organização e Redução de Redundância
+
+-   **Consolidação de Estilos:** Estilos que se repetiam em várias seções (`.portfolio`, `.testimonials`, `.contact`, etc.) foram agrupados em uma regra base. Agora, apenas as diferenças específicas de cada seção são declaradas, o que reduz a duplicação de código e facilita futuras manutenções.
+
+-   **Correção de Regras Duplicadas:** Havia uma definição duplicada para a classe `.section-title`. A duplicata foi removida, mantendo a versão mais completa e corrigindo a inconsistência.
+
+#### 2. Consistência de Componentes (Botões)
+
+-   **Padronização:** O botão com a classe `.botao_portfolio` foi renomeado para `.btn-portfolio` para seguir uma convenção de nomenclatura mais clara e moderna (lembre-se de atualizar o HTML).
+-   **Melhora na Experiência do Usuário (UX):** Foi adicionado um efeito `:hover` ao `.btn-portfolio`, similar aos outros botões do site, para fornecer feedback visual ao usuário.
+
+### Resumo dos Benefícios
+
+-   **Código Mais Limpo:** Menos linhas e menos repetição.
+-   **Manutenção Facilitada:** Alterar o estilo de uma seção agora é mais simples e seguro.
+-   **Melhor Performance:** Arquivos CSS menores podem ser carregados e interpretados mais rapidamente pelo navegador.
+-   **Experiência do Usuário Consistente:** Elementos interativos, como botões, agora se comportam de maneira semelhante.
