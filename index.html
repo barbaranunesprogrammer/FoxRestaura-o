@@ -9,23 +9,17 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <header class="cabecalho">
-    <h1 class="conteudo_titulo">
-      <img class="img-logo" src="assets/img/foxlogo.jpg" alt="Logo da Fox">
-      Fox Estética Automotiva
-    </h1>
-    <section class="botao_inicio">
-      <a class="botao_zap" href="https://wa.me/5564981090252">
-        <img src="assets/img/icons/whatsapp.svg" alt="WhatsApp"> Fale conosco
-      </a>
-      <a class="botao_zap" href="https://www.instagram.com/foxveiculos?igsh=MWNidmN6b25tdnU2OQ==">
-        <img src="assets/img/icons/instagram.svg" alt="Instagram"> Siga nosso Instagram
-      </a>
-    </section>
-  </header>
+   <img src="assets/img/foxlogo.jpg" alt="logo da Fox Restauração Automotiva" class="logo">
+<h1>Fox Restauração Automotiva</h1>
+<p>Transformamos o visual do seu carro com cuidado e excelência</p>
+<a href="https://wa.me/5564981090252" target="_blank" class="btn"><img src="assets/img/icons/whatsapp.svg" alt=""> Agende pelo WhatsApp</a>
+</header>
+
 
   <main>
     <section class="titulo">
@@ -37,22 +31,29 @@
 
   </div>
 </section>
+<section class="services">
+<h2 class="section-title">Serviços</h2>
+<ul>
+  <li>
+    <img src="assets/img/mecanica.jpg" alt="Mecânico"> <br>Mecânica Automotiva
+  </li>
+  <li>
+    <img src="assets/img/pintura.jpg" alt="Pintura"> <br>Pintura Automotiva
+  </li>
+  <li>
+    <img src="assets/img/polimento.jpg" alt="Polimento"> <br>Polimento automotivo em geral
+  </li>
+  <li>
+    <img src="assets/img/troca de oleo.jpg" alt="Troca de óleo"> <br>Troca de óleo
+  </li>
 
-
-    <section class="carrossel">
-      <h3 class="carrossel__titulo">Serviços</h3>
-      <div class="swiper-wrapper">
-        <!-- Slides -->
-        <div class="slide"><img src="assets/img/mecanica.jpg" alt="Mecânico"> <br>Mecânica Automotiva</div>
-        <div class="slide"><img src="assets/img/pintura.jpg" alt="Pintura"> <br>Pintura Automotiva</div>
-        <div class="slide"><img src="assets/img/polimento.jpg" alt="Polimento"> <br>Polimento automotivo em geral</div>
-        <div class="slide"><img src="assets/img/troca de oleo.jpg" alt="Troca de óleo"> <br>Troca de óleo</div>
-      </div>
-      <p><a href="https://wa.me/5564981090252" target="_blank"><img src="assets/img/icons/whatsapp.svg" alt="">Agende um horario e faça seu orçamento</a> </p>
-    </section>
-  </main>
-
-  <section class="sobre">
+</ul>
+</section>
+<section class="portfolio">
+<h2 class="section-title">Antes & Depois</h2>
+<p>Veja os resultados reais dos nossos trabalhos. Imagens impactantes em breve.</p>
+</section>
+<section class="sobre">
     <h3 class="sobre__titulo">Sobre nós</h3>
     <div class="sobre_nos">
       <p class="sobre__texto">A Fox Restauração Veicular atua no mercado de restauração automotiva com o objetivo de oferecer serviços de alta qualidade e confiança. Nossa equipe é formada por profissionais experientes e apaixonados pelo que fazem, garantindo a melhor experiência para você e seu veículo.</p>
@@ -60,8 +61,21 @@
       
     </div>
   </section>
+  <section class="contact">
+<h2 class="section-title">Agende um horário</h2>
+<form id="whatsapp-form">
+  <input type="text" id="nome" placeholder="Seu nome" required>
+  <input type="text" id="servico" placeholder="Serviço desejado" required>
+  <textarea id="mensagem" placeholder="Mensagem" required></textarea>
+  <button type="submit">Enviar para o WhatsApp</button>
+</form>
+</section>
+  </main>
 
+  <script src="js/script.js"></script>
+  
   <footer class="rodape">
+    <p> ©2025 Fox Restauração | Todos os direitos reservados</p>
     <h4 class="rodape_texto">Site produzido por: Bárbara Nunes Programmer</h4>
     <a class="botao_portfolio" href="https://portfoliobarbara.vercel.app/" target="_blank">Conheça meu portfólio</a>
   </footer>
