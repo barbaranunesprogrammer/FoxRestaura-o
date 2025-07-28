@@ -92,24 +92,19 @@ section {
   margin: 0 auto;
 }
 
- .portfolio, .testimonials, .contact,.titulo ,.sobre {
- background: linear-gradient(to right, #1F1F1F, #333);
+.portfolio, .testimonials, .titulo, .sobre, .contact {
+  background: linear-gradient(to right, #1F1F1F, #333);
   border-radius: 10px;
   padding: 2rem;
   margin-bottom: 2rem;
   color: #fff;
   text-align: center;
-
 }
 
 .contact {
-  background: linear-gradient(to right, #1F1F1F, #333);
   padding: 4rem 2rem;
-  border-radius: 10px;
   max-width: 500px;
   margin: 2rem auto;
-  text-align: center;
-  color: #fff;
 }
 
 .contact form {
@@ -156,13 +151,6 @@ section {
 .section-title {
   font-family: 'Oswald', sans-serif;
   font-size: 2rem;
-  margin-bottom: 2rem;
-  color: #00AEEF;
-}
-
-.section-title {
-  font-family: 'Oswald', sans-serif;
-  font-size: 2rem;
   margin-bottom: 1rem;
   color: #00AEEF;
   text-align: center;
@@ -176,8 +164,8 @@ footer {
   font-size: 0.9rem;
   color: #aaa;
 }
-.botao_portfolio{
-    background-color: #00aeef;
+.btn-portfolio {
+  background-color: #00aeef;
   color: #fff;
   border: none;
   padding: 1rem;
@@ -185,7 +173,10 @@ footer {
   border-radius: 8px;
   cursor: pointer;
   transition: background 0.3s ease-in-out;
-
+  text-decoration: none;
+}
+.btn-portfolio:hover {
+  background-color: #008ec4;
 }
 footer a {
   color: #00aeef;
