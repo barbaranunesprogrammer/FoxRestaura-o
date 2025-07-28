@@ -6,7 +6,7 @@
     const servico = document.getElementById('servico').value;
     const mensagem = document.getElementById('mensagem').value;
 
-    const numero = '5564981090852'; 
+    const numero = '5564981090252'; 
     const texto = `Olá, meu nome é ${nome}. Gostaria de saber mais sobre: ${servico}. Mensagem: ${mensagem}`;
     const url = `https://wa.me/${numero}?text=${encodeURIComponent(texto)}`;
 
