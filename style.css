@@ -245,7 +245,7 @@
 
  @media screen and (max-width: 630px) {
      .botao_inicio {
-         width: 60%;
+         width: 100%;
          justify-content: center;
          flex-direction: column;
      }
@@ -255,7 +255,7 @@
      }
 
      .botao_zap {
-         width: 60%;
+         width: 100%;
          /* Example width */
      }
 
